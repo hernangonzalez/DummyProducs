@@ -42,7 +42,7 @@ final class Application: ObservableApplication {
     func take(pid: Product.ID) async throws {
         try await products.take(pid, count: 1)
         state.products =  await products.available()
-        var count = state.cart[pid] ?? 0
+        let count = state.cart[pid] ?? 0
         state.cart[pid] = count + 1
     }
 }
