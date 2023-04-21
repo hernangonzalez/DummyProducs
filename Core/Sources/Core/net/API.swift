@@ -2,10 +2,6 @@ import Foundation
 import Models
 import Combine
 
-struct ProductResponse: Decodable {
-    let products: [Product]
-}
-
 protocol API {
     associatedtype Response: Decodable
     func asRequest() -> URLRequest
@@ -19,7 +15,9 @@ extension API {
 }
 
 struct ProductStockAPI: API {
-    typealias Response = ProductResponse
+    struct Response: Decodable {
+        let products: [Product]
+    }
     
     func asRequest() -> URLRequest {
         let url = URL(string: "https://dummyjson.com/products")!;
