@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Producs
+
+  Created by Hernan G. Gonzalez on 21/04/2023.
+  
+*/
+"general.title" = "Dummy Products";
+"product.price" = "Price: %@";
+"product.available" = "Available: %@";
+"product.add" = "Add to cart";

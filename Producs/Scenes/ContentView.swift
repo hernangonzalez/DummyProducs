@@ -26,7 +26,7 @@ struct ContentView: View {
                 }
                 .frame(maxWidth: .infinity)
             }
-            .navigationTitle("Products")
+            .navigationTitle(L10n.General.title)
             .toolbar {
                 HStack {
                     Text("\(model.cartCount)").font(.headline)

@@ -7,6 +7,8 @@
 
 import XCTest
 
+// TBI: See Core/Tests for implementation examples.
+
 final class ProducsTests: XCTestCase {
 
     override func setUpWithError() throws {

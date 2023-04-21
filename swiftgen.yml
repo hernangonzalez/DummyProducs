@@ -1,0 +1,5 @@
+strings:
+  inputs: Producs/Localizable.strings
+  outputs:
+    - templateName: structured-swift5
+      output: Producs/L10n.swift
