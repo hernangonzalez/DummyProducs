@@ -12,7 +12,13 @@ import Models
 
 struct ApplicationState {
     var products: any Collection<Product> = []
-    var cart: UInt = 0
+    var cart: [Product.ID: UInt] = .init()
+
+    var cartCount: UInt {
+        cart.reduce(0) {
+            $0 + $1.value
+        }
+    }
 }
 
 @MainActor
@@ -36,7 +42,8 @@ final class Application: ObservableApplication {
     func take(pid: Product.ID) async throws {
         try await products.take(pid, count: 1)
         state.products =  await products.available()
-        state.cart += 1
+        var count = state.cart[pid] ?? 0
+        state.cart[pid] = count + 1
     }
 }
 

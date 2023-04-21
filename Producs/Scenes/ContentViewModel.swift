@@ -21,7 +21,7 @@ final class ContentViewModel: ObservableObject {
 }
 
 extension ContentViewModel {
-    var cartCount: UInt { app.state.cart }
+    var cartCount: UInt { app.state.cartCount }
 
     var items: [Product] {
         app.state.products
