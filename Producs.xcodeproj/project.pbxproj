@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FC7ED4229F29B8400548E65 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC7ED4129F29B8400548E65 /* ContentViewModel.swift */; };
+		5FE7083029F2FB3E00215913 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7082F29F2FB3E00215913 /* ProductView.swift */; };
+		5FE7083229F2FB9E00215913 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7083129F2FB9E00215913 /* ProductViewModel.swift */; };
+		5FE7083529F306CF00215913 /* GrowingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7083429F306CF00215913 /* GrowingButton.swift */; };
 		5FF5322F29F132D200EA7631 /* ProducsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5322E29F132D200EA7631 /* ProducsApp.swift */; };
 		5FF5323129F132D200EA7631 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5323029F132D200EA7631 /* ContentView.swift */; };
 		5FF5323329F132D500EA7631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF5323229F132D500EA7631 /* Assets.xcassets */; };
@@ -14,6 +18,9 @@
 		5FF5324129F132D500EA7631 /* ProducsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5324029F132D500EA7631 /* ProducsTests.swift */; };
 		5FF5324B29F132D500EA7631 /* ProducsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5324A29F132D500EA7631 /* ProducsUITests.swift */; };
 		5FF5324D29F132D500EA7631 /* ProducsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5324C29F132D500EA7631 /* ProducsUITestsLaunchTests.swift */; };
+		5FF5325C29F1798B00EA7631 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF5325B29F1798B00EA7631 /* Core */; };
+		5FF5325E29F1798F00EA7631 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = 5FF5325D29F1798F00EA7631 /* Models */; };
+		5FF5326A29F199BE00EA7631 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5326929F199BE00EA7631 /* Application.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5FC7ED4129F29B8400548E65 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		5FE7082F29F2FB3E00215913 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		5FE7083129F2FB9E00215913 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		5FE7083429F306CF00215913 /* GrowingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingButton.swift; sourceTree = "<group>"; };
 		5FF5322B29F132D200EA7631 /* Producs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Producs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF5322E29F132D200EA7631 /* ProducsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducsApp.swift; sourceTree = "<group>"; };
 		5FF5323029F132D200EA7631 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +56,8 @@
 		5FF5324629F132D500EA7631 /* ProducsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProducsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF5324A29F132D500EA7631 /* ProducsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducsUITests.swift; sourceTree = "<group>"; };
 		5FF5324C29F132D500EA7631 /* ProducsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5FF5325929F133EB00EA7631 /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
+		5FF5326929F199BE00EA7631 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF5325E29F1798F00EA7631 /* Models in Frameworks */,
+				5FF5325C29F1798B00EA7631 /* Core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +87,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FE7082E29F2FB2600215913 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				5FE7082F29F2FB3E00215913 /* ProductView.swift */,
+				5FE7083129F2FB9E00215913 /* ProductViewModel.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		5FE7083329F306AE00215913 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				5FE7083429F306CF00215913 /* GrowingButton.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		5FF5322229F132D200EA7631 = {
 			isa = PBXGroup;
 			children = (
+				5FF5325929F133EB00EA7631 /* Core */,
 				5FF5322D29F132D200EA7631 /* Producs */,
 				5FF5323F29F132D500EA7631 /* ProducsTests */,
 				5FF5324929F132D500EA7631 /* ProducsUITests */,
 				5FF5322C29F132D200EA7631 /* Products */,
+				5FF5325A29F1798B00EA7631 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +129,10 @@
 		5FF5322D29F132D200EA7631 /* Producs */ = {
 			isa = PBXGroup;
 			children = (
+				5FE7083329F306AE00215913 /* Styles */,
+				5FF5326629F1997D00EA7631 /* Application */,
+				5FF5326529F1996E00EA7631 /* Scenes */,
 				5FF5322E29F132D200EA7631 /* ProducsApp.swift */,
-				5FF5323029F132D200EA7631 /* ContentView.swift */,
 				5FF5323229F132D500EA7631 /* Assets.xcassets */,
 				5FF5323429F132D500EA7631 /* Producs.entitlements */,
 				5FF5323529F132D500EA7631 /* Preview Content */,
@@ -129,6 +165,31 @@
 			path = ProducsUITests;
 			sourceTree = "<group>";
 		};
+		5FF5325A29F1798B00EA7631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FF5326529F1996E00EA7631 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5FE7082E29F2FB2600215913 /* Product */,
+				5FF5323029F132D200EA7631 /* ContentView.swift */,
+				5FC7ED4129F29B8400548E65 /* ContentViewModel.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5FF5326629F1997D00EA7631 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5FF5326929F199BE00EA7631 /* Application.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +206,10 @@
 			dependencies = (
 			);
 			name = Producs;
+			packageProductDependencies = (
+				5FF5325B29F1798B00EA7631 /* Core */,
+				5FF5325D29F1798F00EA7631 /* Models */,
+			);
 			productName = Producs;
 			productReference = 5FF5322B29F132D200EA7631 /* Producs.app */;
 			productType = "com.apple.product-type.application";
@@ -259,7 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE7083029F2FB3E00215913 /* ProductView.swift in Sources */,
+				5FF5326A29F199BE00EA7631 /* Application.swift in Sources */,
+				5FE7083229F2FB9E00215913 /* ProductViewModel.swift in Sources */,
+				5FC7ED4229F29B8400548E65 /* ContentViewModel.swift in Sources */,
 				5FF5323129F132D200EA7631 /* ContentView.swift in Sources */,
+				5FE7083529F306CF00215913 /* GrowingButton.swift in Sources */,
 				5FF5322F29F132D200EA7631 /* ProducsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,6 +674,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5FF5325B29F1798B00EA7631 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Core;
+		};
+		5FF5325D29F1798F00EA7631 /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5FF5322329F132D200EA7631 /* Project object */;
 }
