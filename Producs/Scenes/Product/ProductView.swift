@@ -38,9 +38,14 @@ struct ProductView: View {
                 }
                 Spacer()
                 HStack(alignment: .bottom) {
-                    Text("Available: \(model.stock)")
-                        .font(.body)
-                        .foregroundColor(.gray)
+                    VStack(alignment: .leading) {
+                        Text("Price: \(model.price)")
+                            .font(.body.bold())
+                            .foregroundColor(.gray)
+                        Text("Available: \(model.stock)")
+                            .font(.body)
+                            .foregroundColor(.gray)
+                    }
                     Spacer()
                     Button("Add to cart") { model.take() }
                         .buttonStyle(GrowingButton(disabled: model.disabled))

@@ -16,7 +16,7 @@ struct ProductViewModel {
 extension ProductViewModel {
     var title: String { item.title.capitalized }
     var description: String { item.title.description }
-    var price: Double { item.price }
+    var price: String { item.price.formatted(.currency(code: "USD")) }
     var images: [URL] { item.images }
     var stock: UInt { item.stock }
     var disabled: Bool { item.stock == 0 }

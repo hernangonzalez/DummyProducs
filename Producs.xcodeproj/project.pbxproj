@@ -11,7 +11,7 @@
 		5FE7083029F2FB3E00215913 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7082F29F2FB3E00215913 /* ProductView.swift */; };
 		5FE7083229F2FB9E00215913 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7083129F2FB9E00215913 /* ProductViewModel.swift */; };
 		5FE7083529F306CF00215913 /* GrowingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7083429F306CF00215913 /* GrowingButton.swift */; };
-		5FF5322F29F132D200EA7631 /* ProducsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5322E29F132D200EA7631 /* ProducsApp.swift */; };
+		5FF5322F29F132D200EA7631 /* ProductsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5322E29F132D200EA7631 /* ProductsApp.swift */; };
 		5FF5323129F132D200EA7631 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF5323029F132D200EA7631 /* ContentView.swift */; };
 		5FF5323329F132D500EA7631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF5323229F132D500EA7631 /* Assets.xcassets */; };
 		5FF5323729F132D500EA7631 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FF5323629F132D500EA7631 /* Preview Assets.xcassets */; };
@@ -46,7 +46,7 @@
 		5FE7083129F2FB9E00215913 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		5FE7083429F306CF00215913 /* GrowingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowingButton.swift; sourceTree = "<group>"; };
 		5FF5322B29F132D200EA7631 /* Producs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Producs.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FF5322E29F132D200EA7631 /* ProducsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProducsApp.swift; sourceTree = "<group>"; };
+		5FF5322E29F132D200EA7631 /* ProductsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsApp.swift; sourceTree = "<group>"; };
 		5FF5323029F132D200EA7631 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5FF5323229F132D500EA7631 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FF5323429F132D500EA7631 /* Producs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Producs.entitlements; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 				5FE7083329F306AE00215913 /* Styles */,
 				5FF5326629F1997D00EA7631 /* Application */,
 				5FF5326529F1996E00EA7631 /* Scenes */,
-				5FF5322E29F132D200EA7631 /* ProducsApp.swift */,
+				5FF5322E29F132D200EA7631 /* ProductsApp.swift */,
 				5FF5323229F132D500EA7631 /* Assets.xcassets */,
 				5FF5323429F132D500EA7631 /* Producs.entitlements */,
 				5FF5323529F132D500EA7631 /* Preview Content */,
@@ -330,7 +330,7 @@
 				5FC7ED4229F29B8400548E65 /* ContentViewModel.swift in Sources */,
 				5FF5323129F132D200EA7631 /* ContentView.swift in Sources */,
 				5FE7083529F306CF00215913 /* GrowingButton.swift in Sources */,
-				5FF5322F29F132D200EA7631 /* ProducsApp.swift in Sources */,
+				5FF5322F29F132D200EA7631 /* ProductsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
